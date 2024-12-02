@@ -56,19 +56,7 @@ function searchPlan() {
                         </div>`;
                 });
             } 
-            // else if (beaches.length > 0) {
-            //     beaches.forEach(beach => {
-            //         resultDiv.innerHTML += `
-            //             <div class="leftContent">
-            //                 <img src="${beach.imageUrl}" alt="${beach.name}">
-            //                 <div class="info">
-            //                     <h2>${beach.name}</h2>
-            //                     <p>${beach.description}</p>
-            //                     <button class="btnVisit">Visit</button>
-            //                 </div>
-            //             </div>`;
-            //     });
-            // } 
+           
             else if (inputSearch.includes('templ')) {
                 data.temples.forEach(temple => {
                     resultDiv.innerHTML += `
@@ -82,19 +70,7 @@ function searchPlan() {
                         </div>`;
                 });
             }
-            //  else if (temples.length > 0) {
-            //     temples.forEach(temple => {
-            //         resultDiv.innerHTML += `
-            //             <div class="leftContent">
-            //                 <img src="${temple.imageUrl}" alt="${temple.name}">
-            //                 <div class="info">
-            //                     <h2>${temple.name}</h2>
-            //                     <p>${temple.description}</p>
-            //                     <button class="btnVisit">Visit</button>
-            //                 </div>
-            //             </div>`;
-            //     });
-            // }
+            
              else if (cityResult !== '') {
                 resultDiv.innerHTML += cityResult;
             } else {
