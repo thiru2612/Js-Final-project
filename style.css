@@ -5,10 +5,13 @@
     font-family:'Roboto'
 }
 body {
-    background-image: url('./img/destination1.jpeg');
-    background-position: top right;
-    background-attachment: fixed;
+  background-image: url('./img/destination1.jpeg');
+  background-position: top right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 nav {
     background-color: #000e25e6;
     padding: 20px;
